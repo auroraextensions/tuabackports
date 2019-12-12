@@ -26,7 +26,7 @@ use Magento\Framework\{
     Api\SearchCriteriaBuilder,
     Exception\NoSuchEntityException,
     Exception\State\ExpiredException,
-    Framework\Phrase
+    Phrase
 };
 
 /**
