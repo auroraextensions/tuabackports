@@ -1,5 +1,5 @@
 {
-  "name": "auroraextensions/tua232backports",
+  "name": "auroraextensions/tuabackports",
   "description": "Tokenize User Authentication backports for Magento 2.3.2.",
   "type": "magento2-module",
   "license": "MIT",
@@ -18,7 +18,7 @@
   },
   "autoload": {
     "psr-4": {
-      "AuroraExtensions\\Tua232Backports\\": ""
+      "AuroraExtensions\\TuaBackports\\": ""
     },
     "files": [
       "registration.php"

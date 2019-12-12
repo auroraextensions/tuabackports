@@ -10,7 +10,7 @@
  * It is also available on the Internet at the following URL:
  * https://docs.auroraextensions.com/magento/extensions/2.x/backports/LICENSE.txt
  *
- * @package       AuroraExtensions_Tua232Backports
+ * @package       AuroraExtensions_TuaBackports
  * @copyright     Copyright (C) 2019 Aurora Extensions <support@auroraextensions.com>
  * @license       MIT License
  */
@@ -18,6 +18,6 @@ use Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(
     ComponentRegistrar::MODULE,
-    'AuroraExtensions_Tua232Backports',
+    'AuroraExtensions_TuaBackports',
     __DIR__
 );

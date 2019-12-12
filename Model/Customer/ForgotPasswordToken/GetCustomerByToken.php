@@ -10,13 +10,13 @@
  * It is also available on the Internet at the following URL:
  * https://docs.auroraextensions.com/magento/extensions/2.x/backports/LICENSE.txt
  *
- * @package       AuroraExtensions_Tua232Backports
+ * @package       AuroraExtensions_TuaBackports
  * @copyright     Copyright (C) 2019 Aurora Extensions <support@auroraextensions.com>
  * @license       MIT License
  */
 declare(strict_types=1);
 
-namespace AuroraExtensions\Tua232Backports\Model\Customer\ForgotPasswordToken;
+namespace AuroraExtensions\TuaBackports\Model\Customer\ForgotPasswordToken;
 
 use Magento\Customer\{
     Api\CustomerRepositoryInterface,
