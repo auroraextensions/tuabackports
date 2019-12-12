@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * routes.xml
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the MIT License, which
+ * is bundled with this package in the file LICENSE.txt.
+ *
+ * It is also available on the Internet at the following URL:
+ * https://docs.auroraextensions.com/magento/extensions/2.x/backports/LICENSE.txt
+ *
+ * @package       AuroraExtensions_Tua232Backports
+ * @copyright     Copyright (C) 2019 Aurora Extensions <support@auroraextensions.com>
+ * @license       MIT License
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="customer">
+            <module name="AuroraExtensions_Tua232Backports" before="NickolasBurr_TokenizeUserAuthentication"/>
+        </route>
+    </router>
+</config>
