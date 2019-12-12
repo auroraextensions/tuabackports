@@ -1,6 +1,6 @@
 {
   "name": "auroraextensions/tuabackports",
-  "description": "Tokenize User Authentication backports for Magento 2.3.2.",
+  "description": "Tokenize User Authentication backports.",
   "type": "magento2-module",
   "license": "MIT",
   "authors": [
