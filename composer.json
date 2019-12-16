@@ -14,14 +14,19 @@
   },
   "require": {
     "php": ">=7.1",
+    "magento/module-customer": "102.*.*",
     "nickolasburr/tokenizeuserauthentication": ">=1.0.2"
   },
   "autoload": {
     "psr-4": {
-      "AuroraExtensions\\TuaBackports\\": ""
+      "Magento\\": "Backport/"
     },
     "files": [
       "registration.php"
+    ],
+    "exclude-from-classmap": [
+      "/Test/",
+      "/include/"
     ]
   }
 }

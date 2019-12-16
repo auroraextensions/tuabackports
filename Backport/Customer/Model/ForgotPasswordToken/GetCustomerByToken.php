@@ -16,7 +16,7 @@
  */
 declare(strict_types=1);
 
-namespace AuroraExtensions\TuaBackports\Model\Customer\ForgotPasswordToken;
+namespace Magento\Customer\Model\ForgotPasswordToken;
 
 use Magento\Customer\{
     Api\CustomerRepositoryInterface,
@@ -29,9 +29,6 @@ use Magento\Framework\{
     Phrase
 };
 
-/**
- * Backport Magento\Customer\Model\ForgotPasswordToken\GetCustomerByToken
- */
 class GetCustomerByToken
 {
     /** @property Magento\Customer\Api\CustomerRepositoryInterface $customerRepository */
