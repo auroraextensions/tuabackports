@@ -1,6 +1,7 @@
 # AuroraExtensions\_TuaBackports
 
-Backports required by Tokenize User Authentication to support older Magento releases.
+Backports required by [Tokenize User Authentication](https://marketplace.magento.com/nickolasburr-tokenizeuserauthentication.html)
+to support older Magento releases.
 
 ## Table of Contents
 
