@@ -16,6 +16,9 @@
     "php": ">=7.1",
     "magento/module-customer": "102.*.*"
   },
+  "suggest": {
+    "auroraextensions/magentobackports": "The successor package to auroraextensions/tuabackports."
+  },
   "autoload": {
     "psr-4": {
       "Magento\\": "Backport/"
@@ -24,8 +27,7 @@
       "registration.php"
     ],
     "exclude-from-classmap": [
-      "/Test/",
-      "/include/"
+      "/Test/"
     ]
   }
 }
