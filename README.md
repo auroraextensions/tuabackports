@@ -1,9 +1,8 @@
 # AuroraExtensions\_TuaBackports
 
-**This package is deprecated and will be removed in the future.** Please use [auroraextensions/magentobackports](https://github.com/auroraextensions/magentobackports) instead.
+**This package is deprecated and will be removed in the future.**
 
-Backports required by [Tokenize User Authentication](https://marketplace.magento.com/nickolasburr-tokenizeuserauthentication.html)
-to support older Magento releases.
+Please use [auroraextensions/magentobackports](https://github.com/auroraextensions/magentobackports) instead.
 
 ## Table of Contents
 
@@ -13,7 +12,8 @@ to support older Magento releases.
 ## Description
 
 `AuroraExtensions_TuaBackports` backports classes, configurations, etc. required by
-Tokenize User Authentication to support older Magento releases.
+[Tokenize User Authentication](https://marketplace.magento.com/nickolasburr-tokenizeuserauthentication.html)
+to support older Magento releases.
 
 ## Versions
 
